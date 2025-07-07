@@ -1,23 +1,37 @@
 # news-sentiment-analysis.nlp
 
-# 📰 News Sentiment Analysis with NLP
+# 📰 News Sentiment Analysis using Sentence Transformers
 
-This project implements a sentiment analysis pipeline on news headlines and articles using Natural Language Processing. It’s aimed at extracting sentiment signals from financial news data.
+This project builds a full pipeline for financial news sentiment analysis using state-of-the-art NLP techniques. We scrape news data from **X (Twitter)** and **Yahoo Finance**, generate **sentence embeddings** using **Sentence Transformers**, and classify them using a custom **sentiment classifier**.
+
+---
 
 ## 🚀 Features
 
-- Data cleaning and preprocessing (stopwords, stemming, etc.)
-- Sentiment labeling using TextBlob / VADER / FinBERT
-- Visualization of sentiment trends
-- Model training and evaluation
+- 🔍 Scrapes real-time headlines from Yahoo Finance and X (formerly Twitter)
+- ✨ Uses Sentence Transformers (BERT-based models) for contextual embeddings
+- 🎯 Trains a classifier (e.g., Logistic Regression, SVM, or fine-tuned BERT) on labeled data
+- 📈 Visualizes sentiment distribution and trends over time
+- 🗂️ Modular pipeline with reusable components
 
-## 🧰 Tech Stack
+---
 
-- Python
-- Pandas, Numpy
-- Scikit-learn, NLTK, TextBlob / VADER / FinBERT
-- Matplotlib / Seaborn
-- Jupyter Notebooks
-- SQL
+## 🧠 Tech Stack
+
+- **Language**: Python
+- **Libraries**:
+  - `sentence-transformers`
+  - `scikit-learn`
+  - `pandas`, `numpy`
+  - `matplotlib`, `seaborn`
+  - `beautifulsoup4`, `requests`, `snscrape`
+- **Model**: Sentence-BERT (e.g., `all-MiniLM-L6-v2`)
+- **Sources**: Yahoo Finance, X/Twitter (via `snscrape`)
+
+---
 
 ## 📁 Project Structure
+
+
+
+
