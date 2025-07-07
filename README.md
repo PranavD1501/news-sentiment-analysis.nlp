@@ -18,5 +18,6 @@ This project implements a sentiment analysis pipeline on news headlines and arti
 - Scikit-learn, NLTK, TextBlob / VADER / FinBERT
 - Matplotlib / Seaborn
 - Jupyter Notebooks
+- SQL
 
 ## 📁 Project Structure
